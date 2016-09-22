@@ -1,0 +1,15 @@
+{
+  "name": "vkdemocracy",
+  "version": "1.0.0",
+  "description": "Auto comment moderation based on likes (vk.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo pandapandapanda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vkdemocracy"
+  },
+  "author": "yashko",
+  "license": "Apache 2.0"
+}

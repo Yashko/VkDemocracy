@@ -78,10 +78,10 @@ let APPDATA = {
                     })
                 } else {
                 	if (comment.loop == (SETTINGS.time.length-1)) return;
-					comment.loop += 1;
-					setTimeout(function() {
-					    APPDATA.checkComment(comment)
-					}, SETTINGS.time[comment.loop] * 1000);
+			comment.loop += 1;
+			setTimeout(function() {
+				APPDATA.checkComment(comment)
+			}, SETTINGS.time[comment.loop] * 1000);
                 }
             }
         });

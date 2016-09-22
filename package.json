@@ -11,5 +11,11 @@
     "url": "vkdemocracy"
   },
   "author": "yashko",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "simplevk": "^1.0.3",
+    "body-parser": "^1.15.2"
+  },
+  "devDependencies": {}
 }

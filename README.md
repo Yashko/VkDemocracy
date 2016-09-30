@@ -12,7 +12,7 @@ Automated comments moderation based on likes
 if you want to run script as a daemon, you can use https://github.com/Unitech/pm2
 
 SETTINGS:
-```
+
 watch - id of the group (starting with "-")
 
 token - access_token of user with moderation privilegue
@@ -26,7 +26,6 @@ secret - secret_key from callback api page (in group settings)
 port - port on which script will be runned. make sure those port is open
 
 confirm - confirmation_key from callback api page to confirm domain (in group settings)
-```
 
 
 

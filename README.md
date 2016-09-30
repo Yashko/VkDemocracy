@@ -6,7 +6,8 @@ Automated comments moderation based on likes
 ## Usage
 
 1. Open index.js file and edit SETTINGS object.
-```watch - id of the group (starting with "-")
+```
+watch - id of the group (starting with "-")
 
 token - access_token of user with moderation privilegue
 

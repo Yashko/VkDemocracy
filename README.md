@@ -18,4 +18,8 @@ secret - secret_key from callback api page (in group settings)
 
 port - port on which script will be runned. make sure those port is open
 
-confirm - confirmation_key from callback api page to confirm domain (in group settings)```
+confirm - confirmation_key from callback api page to confirm domain (in group settings)
+```
+2. run script `node index.js`
+
+if you want to run script as a daemon, you can use https://github.com/Unitech/pm2

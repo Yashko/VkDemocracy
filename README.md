@@ -5,27 +5,16 @@ Automated comments moderation based on likes
 
 ## Usage
 
-1. Open index.js file and edit SETTINGS object.
-
-2. run script `node index.js`
+1. Edit config.json
+2. Run script`node index.js`
 
 if you want to run script as a daemon, you can use https://github.com/Unitech/pm2
 
-SETTINGS:
 
-watch - id of the group (starting with "-")
-
-token - access_token of user with moderation privilegue
-
-time - array, how many times and how often script should check comments. [10,30] means first check in 10 seconds, and second in 30 seconds. 
-
-likes - array, should have elements number equal to time array. how much likes required to dont delete comment. [5,20] means comment need to get 5 likes on the first check, and 20 likes on the second check
-
-secret - secret_key from callback api page (in group settings)
-
-port - port on which script will be runned. make sure those port is open
-
-confirm - confirmation_key from callback api page to confirm domain (in group settings)
-
-
-
+> watch - ID паблика, начинается с "-"
+> token - access_token пользователя с правами модератора
+> time - массив, как часто и с каким промежутком скрипт будет проверять комментарии. Пример: [10,30], первая проверка будет через 10 секунд, вторая через 30 (после первой)
+> likes - массив, количество лайков, которое должен иметь комментарий чтобы остаться. Пример: [5,20], во время первой проверки комментарий должен набрать 5 лайков, во время второй: 20.
+> secret - secret_key со страницы настройки callback api (в настройках паблика)
+> port - порт на котором будет запущен скрипт
+> confirm - confirmation_key со страницы настройки callback_api (в настройках паблика)
